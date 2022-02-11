@@ -1,0 +1,96 @@
+.ParentBox {
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.Photo {
+  float: left;
+  width: 50%;
+  height: 700px;
+}
+
+.Photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.Description {
+  width: 40%;
+  overflow: hidden;
+  float: left;
+  margin-left: 30px;
+}
+
+.Description .Info {
+  line-height: 1.8;
+  color: rgb(20, 20, 20);
+}
+
+.Description .Price {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Description .Title {
+  margin: 0;
+}
+
+.Description .Cate {
+  color: #acaeb2;
+}
+
+.Description a {
+  margin-top: 20px;
+  color: #fff;
+  font-weight: 500;
+  background: rgb(206, 39, 67);
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 10px 20px 10px;
+  font-size: 20px;
+  border-radius: 4px;
+  transition: all 0.8s;
+}
+
+.Description a:hover {
+  color: #ffffff;
+  background: rgb(248, 64, 95);
+  transition: all 0.8s;
+}
+
+.Testimonial-Box {
+  clear: both;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+.Testimonial-Box h2 {
+  margin-top: 50px;
+}
+
+.Testimonial-Box img {
+  width: 80px;
+  height: 80px;
+  background: #b1b1b1;
+  border-radius: 11px;
+  float: left;
+  margin-right: 16px;
+}
+
+.Testimonial-Box .User p,
+h3 {
+  margin: 0;
+}
+
+.Testimonial-Box .User h3 {
+  margin: 0;
+}
+
+.Testimonial-Box .Item {
+  width: 80%;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
